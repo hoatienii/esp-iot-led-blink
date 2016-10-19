@@ -1,6 +1,6 @@
 XTENSA		?=
 SDK_BASE	?= /opt/esp-open-sdk/sdk
-ESPTOOL		?= /tools/esp8266/esptool/esptool.py
+ESPTOOL		?= /opt/esp-open-sdk/esptool/esptool.py
 SDK_LIBS 	:= -lc -lgcc -lhal -lphy -lpp -lnet80211 -lwpa -lmain -llwip -lcrypto -ljson
 CC			:= $(XTENSA)xtensa-lx106-elf-gcc
 LD			:= $(XTENSA)xtensa-lx106-elf-gcc
